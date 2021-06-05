@@ -46,5 +46,17 @@ investigator must consider the following when determine data Acquisition Methods
 anyway there is no one right method that works every time. different cases have different circumstance, and with different crcumstance, different methods are nedded.
 ### Live Data Acquisition
 live data Acquisition means collect data while the machine is running. when investigator need for volatile data and volatile data reside in RAM or Cache.
+there are the following two types of volatile data:
+1. **System Information:** is a generic term that describes basic system information about the machine, system profile (details about configuration), login activity, current system date and time, command history, current system uptime, running processes, open files, startup files, clipboard data, logged on users, DLLs, or shared libraries.
+2. **Network Configuration:**
+Network information is the network related information stored in the suspicious system and connected network devices. Volatile network information includes open connections and ports, routing information and configuration, ARP cache, shared files, services accessed, etc.
+###Forensics Tools
+list of forensics tools followed by:
+ - Access Data FTK Imager: FTK Imager is one of the most famous tools in the forensics world. the tool allows the investigator to acquire various type of storage device and store then in different format for analysis.
+ **it is extremely important to remember to use *write blocking*  when acquiring images for a hard disk, so that it won't destroy or alter important data an the disk**
+- Live response Collection: is a very handy framework from BriMor Labs, which can collect various and useful information from a machine. the tool offers many acquistion type, each one is used depending on the data we're interested in.
+- Volatility Framework: the Volatility framework is a completely open collection of tools, implemented in python under GNU license for extraction of digital artifact from volatile memory sample.
+- Bulk Extractor: bulk_extractor is a computer forensics tool that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. The results can be easily inspected, parsed, or processed with automated tools.
+- Autopsy: Autopsy is a GUI-based open source digital forensic program to analyze hard drives and smart phones effectively. Autospy is used by thousands of users worldwide to investigate what actually happened in the computer.
 
- 
+Curated list of awesome free (mostly open source) forensic analysis tools and resources please visit -> https://github.com/cugu/awesome-forensics.
