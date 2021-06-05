@@ -8,4 +8,5 @@ a) Static Acquisition = gathering non volatile data, forexample: gathring data f
 
 b) Dynamic Acquisition = gathering volatile data , forexample: gathering data from memory.
 
-Dead Acquisition means Dead Acquisition refers to the attempt to acquire data from the suspect's machine without the operating system . 
+Dead Acquisition means Dead Acquisition refers to the attempt to acquire data from the suspect's machine without the operating system.
+Reason:  the suspect's OS cannot be trusted.
