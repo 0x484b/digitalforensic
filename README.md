@@ -1,7 +1,6 @@
 # NOTE
 This repository is NOT complete, or completely accurate. this repository collection of my experiences in digital forensics and incident response. table of content that i will develop is following by:
-- Data Acquisition
-visit https://github.com/0x484b/DFIR/blob/main/Data_Acquisition.md
+- Data Acquisition -> https://github.com/0x484b/DFIR/blob/main/Data_Acquisition.md
 - File Structure
 - File Analysis
 - Disk Partitioning
