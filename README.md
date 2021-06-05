@@ -39,10 +39,10 @@ beside a RAW format, there are proprietary format such as AFF for forensics imag
 * **Sparse Data Acquisition:** this method is similar to creating a logical acquisition but it also collects deleted data (unallocated). Also this method is used when an investigator doesn’t need to examine the whole drive.
 
 investigator must consider the following when determine data Acquisition Methods:
-1- The size of the source disk.
-2- Can you retain the source disk as an evident or must you return it to the owner?
-3- Time to do perform the acquisition.
-4- Location of the evidence
+1. The size of the source disk.
+2. Can you retain the source disk as an evident or must you return it to the owner?
+3. Time to do perform the acquisition.
+4. Location of the evidence
 anyway there is no one right method that works every time. different cases have different circumstance, and with different crcumstance, different methods are nedded.
 ### Live Data Acquisition
 live data Acquisition means collect data while the machine is running. when investigator need for volatile data and volatile data reside in RAM or Cache.
