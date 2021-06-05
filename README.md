@@ -1,5 +1,5 @@
 # NOTE
-This repository is NOT complete, or completely accurate. this repository collection of my experiences in digital forensics and incident response. table of content that i will develop is following by:
+This repository is NOT complete, or completely accurate. this repository collection of my experiences in digital forensics and incident response. one of my important goal is overview of DFIR Topic. table of content that i will develop is following by:
 - Data Acquisition -> https://github.com/0x484b/DFIR/blob/main/Data_Acquisition.md
 - File Structure
 - File Analysis
@@ -9,5 +9,5 @@ This repository is NOT complete, or completely accurate. this repository collect
 - Network Forensics
 - Timeline analysis
 
-I hope you enjoy it!.
+I hope usefull for you!.
 
