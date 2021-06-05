@@ -1,4 +1,3 @@
-# DFIR
 **Data Acquisition**
 
 Data Acquisition means is the process of taking an image from a suspect's machine.
