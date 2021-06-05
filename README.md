@@ -8,6 +8,6 @@ Type of Data Acquisition:
 
 * Dynamic Acquisition = gathering volatile data , forexample: gathering data from memory.
 
-##Dead Acquisition  
+## Dead Acquisition  
 Dead Acquisition refers to the attempt to acquire data from the suspect's machine without the operating system.
 Reason:  the suspect's OS cannot be trusted.
