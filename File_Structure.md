@@ -21,3 +21,13 @@ different files have different headers and it is important to remember that some
 
 final note, most file formats have a header and a **trailer**. e.g. PDF files have a section called **XREF** in addition to the header and trailer. we can check header and trailer of files with hex editor.
 ### Magic Number
+magic number is another method used by application (mostly unix/linux) to try and ID the file without the need for reading the whole header. a magic number is a unique string, usually at the beginning of the file, which can be used ti identify the type of the file.
+
+in linux, the **File** command can be used to identify the type of the file.a list of magic number can also be found on most linux system in:
+**/usr/share/file/magic**
+### Metadata Type
+metadata files which are relevant to forensic investigation and can be categorized into three nain type:
+- System metadata
+- Substantive metadata
+- Embedded metadata and Externam metadata
+#### System Metadata
