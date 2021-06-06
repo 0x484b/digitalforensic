@@ -14,4 +14,10 @@ The NTFS file system contains a file called the master file table, or MFT. There
 MFT record can be used when searching for files whithin the file system. this record used for an evidence to prove the existence of lost or deleted files.
 **directory snoop** is a great tool to perform the MFT record search and required task. another great tools **DiskExplorer for NTFS** from Runtime Software.
 ### File Header
+File header is a unique identification section found at beginning/head of every file. header usually contains data used by the application that opens the file.
+the header could contain things like: name, author, date of creation, size, etc.
 
+different files have different headers and it is important to remember that some headers are known standard and others  are preparatory, also the some file don't have a header at all. foreample, txt file don't have header.
+
+final note, most file formats have a header and a **trailer**. e.g. PDF files have a section called **XREF** in addition to the header and trailer. we can check header and trailer of files with hex editor.
+### Magic Number
